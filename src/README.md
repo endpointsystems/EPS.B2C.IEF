@@ -1,7 +1,7 @@
 # EPS.B2C.IEF
-This package is a C# implementation of the [TrustFrameworkPolicy](https://docs.microsoft.com/en-us/azure/active-directory-b2c/trustframeworkpolicy) for building Identity Exchange Framework (IEF) solutions in Azure AD B2C using .NET Core.
+This package is a C# implementation of the [TrustFrameworkPolicy](https://docs.microsoft.com/en-us/azure/active-directory-b2c/trustframeworkpolicy) for building Identity Exchange Framework (IEF) solutions in Azure AD B2C using .NET Core. 
 
-Keep an eye out for updates to the [b2c-cli](https://github.com/elvogel/b2c-cli) command-line tool for performing common Azure AD B2C tasks.
+ Keep an eye out for updates to the [b2c-cli](https://github.com/elvogel/b2c-cli) command-line tool for performing common Azure AD B2C tasks.
 
 ### Some Helpful Links
 

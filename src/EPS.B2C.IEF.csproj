@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageVersion>0.0.3.0</PackageVersion>
+    <Title>B2C Identity Experience Framework Library</Title>
+    <Description>
+      This package is a C# implementation of the TrustFrameworkPolicy for building Identity Exchange Framework (IEF) solutions in Azure AD B2C using .NET Core.
+    </Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageProjectUrl>https://endpointsystems.com</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/endpointsystems/EPS.B2C.IEF</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <PackageTags>B2C, IEF</PackageTags>
+    <PackageReleaseNotes>Initial release for framework version 0.0.3.</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="icon.png">
+      <Pack>true</Pack>
+      <Visible>false</Visible>
+      <PackagePath>/</PackagePath>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="README.md">
+      <Pack>true</Pack>
+      <PackagePath>/</PackagePath>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
